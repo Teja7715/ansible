@@ -1,5 +1,6 @@
 - name: ping the server
   hosts: frontend
+  # list of task/collectionm/modules
   tasks:
   - name: ping
-  ansible.builtin.ping: 
+    ansible.builtin.ping: 
